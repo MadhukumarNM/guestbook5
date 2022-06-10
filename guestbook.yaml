@@ -195,7 +195,7 @@ metadata:
   name: redis-slave
 spec:
   replicas: 1
-  revisionHistoryLimit: 5
+  revisionHistoryLimit: 4
   selector:
     matchExpressions: []
     matchLabels:
